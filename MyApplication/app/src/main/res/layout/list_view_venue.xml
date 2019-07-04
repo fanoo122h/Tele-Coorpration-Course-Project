@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+>
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:src="@drawable/star" />
+
+    <TextView
+        android:id="@+id/item_txtCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_txtYear"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/item_txtMake"
+        android:fontFamily="casual"
+        android:text="Condition shown here"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/item_txtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_icon"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/item_icon"
+        android:fontFamily="casual"
+        android:text="2000"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/item_txtMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/item_txtYear"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/item_txtYear"
+        android:fontFamily="casual"
+        android:text="Make Shown Here"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

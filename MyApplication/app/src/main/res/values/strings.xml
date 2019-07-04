@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Laware</string>
+    <string name="title_activity_search__page">Search_Page</string>
+    <string name="title_activity_map__page">Map_Page</string>
+    <string name="title_activity_venue">Venue</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_user_profile">profile</string>
+    <string name="title_search_page2">Home</string>
+    <string name="google_maps_key">AIzaSyAcTsthxDMZ7-a6iww2zen4opiH7Ju8f8I</string>
+    <string name="myCloudName">cloudinary://518816883576142:vC0lWO6wTxXm3DnPFrzHrbOHLoM@dxlimxfwc</string>
+
+</resources>

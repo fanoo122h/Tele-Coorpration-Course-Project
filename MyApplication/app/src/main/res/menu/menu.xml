@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/homepage"
+    android:title="Home"
+    android:icon="@drawable/homewhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/friend"
+        android:title="Friends"
+        android:icon="@drawable/friendss"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/toolrbar_profile"
+        android:title="Home"
+        android:icon="@drawable/profile"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="ifRoom"/>
+</menu>

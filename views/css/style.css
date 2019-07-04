@@ -1,0 +1,65 @@
+﻿body {
+   
+}
+ #homepageheader{
+        background-color:#73d780;
+        position:fixed;
+        height:50px;
+        width: 100%;
+        top: 0px;
+        align-items:center;
+       }
+ .#homepageconatiner{
+     margin-top:60px;
+     background-image:url(bg.jpg);
+     height:90%;
+
+ }
+
+ .sq {
+     font:bold;
+     font-size: 20px;
+     color:white;
+     float:left;
+     padding-left: 5em;
+   
+ }
+ .centresquare{
+     font:bolder;
+     color:white;
+     font-size:40px;
+     
+     
+ }
+ .ainhead{
+     color:white;
+     font:bold;
+ }
+ .righthead{
+     float:right;
+     padding-left: 5em;
+ }
+ #homepagefooter{
+     bottom:0px;
+
+ }
+ .footer{
+     align-items:center;
+     padding-left:10em;
+     
+ }
+ .checklist{
+     font-size:large;
+     padding-bottom:20em;
+     padding-top:3em;
+     
+ }
+ a{
+     color:white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ }
+ a hover
+ {color:white;}
+ h1 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}             
